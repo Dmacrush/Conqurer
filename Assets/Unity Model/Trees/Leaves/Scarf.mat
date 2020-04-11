@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scarf
+  m_Shader: {fileID: -6465566751694194690, guid: 751a77df412eba646a3c83439a3f8c6e,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_570AE160: 0.03
+    - Vector1_D80D6907: 0.1
+    - Vector1_E9E483F4: 5
+    m_Colors:
+    - Color_388A22F8: {r: 0.33333334, g: 0.33333334, b: 0.3019608, a: 1}
+    - Color_D217411F: {r: 0.79215693, g: 0.7843138, b: 0.7411765, a: 1}
+  m_BuildTextureStacks: []

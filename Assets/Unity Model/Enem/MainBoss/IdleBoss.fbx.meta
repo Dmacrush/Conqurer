@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 972828720b5ad8a488b40ea1ceaa214c
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: MainBoss Idle
+  - first:
+      74: 6919748540120076849
+    second: MainBoss
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katana2_blinn1
+    second: {fileID: 2100000, guid: e55574a8ddba2944c8d0d77043ae8180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Body2
+    second: {fileID: 2100000, guid: 8285db6caa1d433418de8a8859e97065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Bottom1
+    second: {fileID: 2100000, guid: e79dddb2e3aa6544c87b653bd684ad46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Hair2
+    second: {fileID: 2100000, guid: 9524d3161542dae4aaf9e1281197ae05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Top1
+    second: {fileID: 2100000, guid: 024196f6452fa684e8ea11719daf9024, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Body_diffuse
+    second: {fileID: 2800000, guid: ee67333328689b34ca4b0c3779822015, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Body_normal
+    second: {fileID: 2800000, guid: d74e134bd03d6cd48b0ea5c5c85f6417, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Body_specular
+    second: {fileID: 2800000, guid: 33a1a093720d83e4da8b2540ef0d4907, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Bottom_diffuse
+    second: {fileID: 2800000, guid: af4db9d403d465542b4890583631385a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Bottom_normal
+    second: {fileID: 2800000, guid: 8b7c892914ba5d347ab2770e60dffe49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Bottom_specular
+    second: {fileID: 2800000, guid: 0821c1c474bf94945af27aecdc9df003, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Hair_diffuse
+    second: {fileID: 2800000, guid: 877942f16a3439445b967eff6403d7a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Hair_normal
+    second: {fileID: 2800000, guid: 829d53108fcd55d4493e83de8781479e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Hair_specular
+    second: {fileID: 2800000, guid: b1230862baa393643a1ffabdfeb26580, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Top_diffuse
+    second: {fileID: 2800000, guid: 3018a3ae949b3fe49a28f236824e4ab3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Top_normal
+    second: {fileID: 2800000, guid: b6fa7c16d2797384a94f8075f3f3228c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MainBoss_Top_specular
+    second: {fileID: 2800000, guid: 1886a99fd0c74044e913d81c63590157, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MainBoss
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: MainBoss2_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MainBoss2_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: IdleBoss(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss1
+      parentName: IdleBoss(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_Reference
+      parentName: IdleBoss(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_HipsEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.1076355, y: 4.876159, z: -0.0022620857}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftAnkleEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 6.697246, y: 0.4364744, z: -0.13713369}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightAnkleEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.5180244, y: 0.43647045, z: -0.13714203}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftWristEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 3.540977, y: 7.2030663, z: -0.27742088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightWristEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 10.674294, y: 7.203063, z: -0.27742663}
+      rotation: {x: -1.2325952e-32, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftKneeEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 6.697246, y: 2.657657, z: 0.015085902}
+      rotation: {x: 4.8572257e-17, y: 5.4257906e-17, z: -1.6372652e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightKneeEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.5180244, y: 2.6576543, z: 0.015034746}
+      rotation: {x: -4.1633363e-17, y: -1.5855546e-16, z: -1.1123139e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftElbowEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 4.9574194, y: 7.203067, z: -0.27742273}
+      rotation: {x: 1.110223e-16, y: 1.9844272e-22, z: -5.293956e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightElbowEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 9.257853, y: 7.203063, z: -0.27742442}
+      rotation: {x: -1.2325952e-32, y: -2.553999e-38, z: 1.8634972e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_ChestOriginEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.107636, y: 5.7228227, z: 0.08429184}
+      rotation: {x: -1.7385657e-33, y: 6.162976e-33, z: 6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_ChestEndEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.107636, y: 7.2030654, z: -0.2774248}
+      rotation: {x: -1.7385657e-33, y: 6.162976e-33, z: 6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftShoulderEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 6.349495, y: 7.2030663, z: -0.27742463}
+      rotation: {x: 1.6653345e-16, y: 4.391664e-23, z: -1.5881868e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightShoulderEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.8657765, y: 7.2030644, z: -0.27742502}
+      rotation: {x: 5.551115e-17, y: 1.3621496e-22, z: -1.0587912e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_HeadEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.107636, y: 7.9964733, z: -0.07597724}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftHipEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 6.697246, y: 4.876158, z: -0.0022619728}
+      rotation: {x: -5.2041704e-18, y: 6.162976e-33, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightHipEffector
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.5180244, y: 4.87616, z: -0.0022621984}
+      rotation: {x: 1.179612e-16, y: -1.2325952e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_Hips
+      parentName: Character1_Ctrl_Reference
+      position: {x: 7.1076355, y: 5.2137437, z: 0.07771579}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftUpLeg
+      parentName: Character1_Ctrl_Hips
+      position: {x: -0.41038895, y: -0.33758506, z: -0.079977766}
+      rotation: {x: -5.2041704e-18, y: 6.162976e-33, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftLeg
+      parentName: Character1_Ctrl_LeftUpLeg
+      position: {x: -0, y: -2.2185013, z: 0.017347874}
+      rotation: {x: 4.8572257e-17, y: 5.4257906e-17, z: -1.6372652e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftFoot
+      parentName: Character1_Ctrl_LeftLeg
+      position: {x: -0, y: -2.2211826, z: -0.1522196}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightUpLeg
+      parentName: Character1_Ctrl_Hips
+      position: {x: 0.4103897, y: -0.33758354, z: -0.07997799}
+      rotation: {x: 1.179612e-16, y: -1.2325952e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightLeg
+      parentName: Character1_Ctrl_RightUpLeg
+      position: {x: -0, y: -2.2185056, z: 0.017296944}
+      rotation: {x: -4.1633363e-17, y: -1.5855546e-16, z: -1.1123139e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightFoot
+      parentName: Character1_Ctrl_RightLeg
+      position: {x: -0, y: -2.2211838, z: -0.1521768}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_Spine
+      parentName: Character1_Ctrl_Hips
+      position: {x: 0.00000076293946, y: 0.50907934, z: 0.0065760487}
+      rotation: {x: -1.7385657e-33, y: 6.162976e-33, z: 6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftArm
+      parentName: Character1_Ctrl_Spine
+      position: {x: -0.7581409, y: 1.4802432, z: -0.3617165}
+      rotation: {x: 1.6653345e-16, y: 4.391664e-23, z: -1.5881868e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftForeArm
+      parentName: Character1_Ctrl_LeftArm
+      position: {x: -1.3920761, y: 0.00000076293946, z: 0.0000018835067}
+      rotation: {x: 1.110223e-16, y: 1.9844272e-22, z: -5.293956e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_LeftHand
+      parentName: Character1_Ctrl_LeftForeArm
+      position: {x: -1.416442, y: -0.00000076293946, z: 0.0000018835067}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightArm
+      parentName: Character1_Ctrl_Spine
+      position: {x: 0.75814056, y: 1.4802417, z: -0.3617168}
+      rotation: {x: 5.551115e-17, y: 1.3621496e-22, z: -1.0587912e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightForeArm
+      parentName: Character1_Ctrl_RightArm
+      position: {x: 1.3920761, y: -0.0000015258789, z: 0.0000005722046}
+      rotation: {x: -1.2325952e-32, y: -2.553999e-38, z: 1.8634972e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_RightHand
+      parentName: Character1_Ctrl_RightForeArm
+      position: {x: 1.4164413, y: 0, z: -0.0000021934509}
+      rotation: {x: -1.2325952e-32, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character1_Ctrl_Head
+      parentName: Character1_Ctrl_Spine
+      position: {x: -0, y: 2.2736506, z: -0.16026907}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Reference
+      parentName: IdleBoss(Clone)
+      position: {x: 0.0007680893, y: -0.00080415, z: -0.024874903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Hips
+      parentName: MainBoss2_Reference
+      position: {x: -0.00088226097, y: 4.221418, z: 0.0077750613}
+      rotation: {x: 0.4918774, y: -0.50799274, z: -0.4918774, w: 0.50799274}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: MainBoss2_LeftUpLeg
+      parentName: MainBoss2_Hips
+      position: {x: -0.017856646, y: 0.0071169725, z: 0.42304778}
+      rotation: {x: 0.022249935, y: 0.25517467, z: -0.9653708, w: -0.049497686}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: MainBoss2_LeftLeg
+      parentName: MainBoss2_LeftUpLeg
+      position: {x: -2.040687, y: -0.0000054000134, z: -0.0000025598724}
+      rotation: {x: 0.16928652, y: -0.016974848, z: -0.07960216, w: 0.9822003}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: MainBoss2_LeftFoot
+      parentName: MainBoss2_LeftLeg
+      position: {x: -1.7389587, y: 0.00000031458342, z: -0.000000024576746}
+      rotation: {x: -0.10582011, y: 0.040184215, z: -0.52891034, w: -0.84109527}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
+    - name: MainBoss2_LeftToeBase
+      parentName: MainBoss2_LeftFoot
+      position: {x: -0.6614489, y: 0.0000004235904, z: 0.00000034728046}
+      rotation: {x: -0, y: -0, z: 0.000000013038516, w: 1}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999997}
+    - name: MainBoss2_RightUpLeg
+      parentName: MainBoss2_Hips
+      position: {x: -0.017856523, y: 0.007117012, z: -0.42304844}
+      rotation: {x: -0.26155028, y: 0.021701813, z: -0.049173757, w: 0.96369207}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: MainBoss2_RightLeg
+      parentName: MainBoss2_RightUpLeg
+      position: {x: 2.0406914, y: -0.0000035719668, z: -0.00000037664682}
+      rotation: {x: -0.17302087, y: 0.014271485, z: 0.08007173, w: -0.9815542}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: MainBoss2_RightFoot
+      parentName: MainBoss2_RightLeg
+      position: {x: 1.7389578, y: 0.00000017634441, z: 0.00000005649477}
+      rotation: {x: -0.10763085, y: 0.042471953, z: -0.52924645, w: -0.8405415}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+    - name: MainBoss2_RightToeBase
+      parentName: MainBoss2_RightFoot
+      position: {x: 0.6614489, y: -0.00000010100042, z: 0.000000028959235}
+      rotation: {x: 0.000025369223, y: 0.000000055879347, z: 0.0000000135041756, w: 1}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1}
+    - name: MainBoss2_Spine
+      parentName: MainBoss2_Hips
+      position: {x: -0.6633847, y: -0.000000028667348, z: -0.000000052897757}
+      rotation: {x: -0, y: -0, z: 0.015610397, w: 0.99987817}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: MainBoss2_Spine1
+      parentName: MainBoss2_Spine
+      position: {x: -0.67147076, y: -0.00000007992178, z: -0.0000000043391974}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Spine2
+      parentName: MainBoss2_Spine1
+      position: {x: -0.6714713, y: -0.000000022580425, z: -0.000000047563912}
+      rotation: {x: 0.000000029333465, y: -0.00000003026392, z: -0.006668051, w: 0.9999778}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: MainBoss2_LeftShoulder
+      parentName: MainBoss2_Spine2
+      position: {x: -0.539526, y: -0.3098203, z: 0.2726065}
+      rotation: {x: -0.48731488, y: 0.51237124, z: 0.48731485, w: 0.51237124}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: MainBoss2_LeftArm
+      parentName: MainBoss2_LeftShoulder
+      position: {x: -0.40890983, y: 0.000000060569526, z: 0.000000049702425}
+      rotation: {x: 0.6745876, y: -0.016479785, z: 0.03706108, w: 0.7370798}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: MainBoss2_LeftForeArm
+      parentName: MainBoss2_LeftArm
+      position: {x: -1.2060721, y: -0.0000007166933, z: 0.0000022102254}
+      rotation: {x: -0.0006009336, y: -0.0055447924, z: -0.07784841, w: 0.9969496}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: MainBoss2_LeftHand
+      parentName: MainBoss2_LeftForeArm
+      position: {x: -0.9560121, y: -0.00000020248595, z: -0.00000015446821}
+      rotation: {x: 0.000000052031204, y: 0.00000007308826, z: 0.000001199543, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: MainBoss2_RightShoulder
+      parentName: MainBoss2_Spine2
+      position: {x: -0.5395259, y: -0.30982035, z: -0.2726066}
+      rotation: {x: 0.5123712, y: 0.4873148, z: -0.5123712, w: 0.48731485}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: MainBoss2_RightArm
+      parentName: MainBoss2_RightShoulder
+      position: {x: 0.40890983, y: 0.000000060569526, z: 0.000000049702425}
+      rotation: {x: -0.6745867, y: 0.016478539, z: -0.037062537, w: -0.7370805}
+      scale: {x: 1.0000005, y: 0.99999994, z: 0.99999994}
+    - name: MainBoss2_RightForeArm
+      parentName: MainBoss2_RightArm
+      position: {x: 1.2060729, y: -0.000000017502476, z: 0.00000008105876}
+      rotation: {x: -0.00060054654, y: -0.005546383, z: -0.0778488, w: 0.99694955}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: MainBoss2_RightHand
+      parentName: MainBoss2_RightForeArm
+      position: {x: 0.95601314, y: 0.00000029437365, z: -0.00000034216353}
+      rotation: {x: -0.000000054440015, y: -0.00000005086644, z: 9.475751e-13, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Katana2:katana
+      parentName: MainBoss2_RightHand
+      position: {x: 1.0244349, y: -0.3853241, z: -0.04656467}
+      rotation: {x: 0.77150375, y: 0.4385969, z: 0.45679647, w: -0.061251502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Neck
+      parentName: MainBoss2_Spine2
+      position: {x: -1.5137253, y: -0.0000002915356, z: -0.00000028068112}
+      rotation: {x: -0.000000061866295, y: -0.0000000018723154, z: -0.07831495, w: 0.9969287}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: MainBoss2_Head
+      parentName: MainBoss2_Neck
+      position: {x: -0.31636935, y: 0.0000009645219, z: -0.00000002377578}
+      rotation: {x: -0.00000005532459, y: -0.0000000635973, z: 0.000000022351736,
+        w: -1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Reference
+      parentName: IdleBoss(Clone)
+      position: {x: 0.0007680893, y: -0.00080415, z: -0.024874903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_HipsEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.0007680893, y: 4.3019114, z: 0.18150043}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftAnkleEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -0.33958325, y: 0.57169074, z: -0.33812976}
+      rotation: {x: 0.00059305876, y: 0.021714743, z: 0.016938236, w: 0.99962056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightAnkleEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.3411195, y: 0.57168883, z: -0.33813027}
+      rotation: {x: 0.0005917995, y: -0.021740543, z: -0.01695861, w: 0.99961966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftWristEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -2.8215826, y: 6.638318, z: -0.2865944}
+      rotation: {x: -0.26558784, y: 0.1886648, z: -0.01589235, w: 0.94531274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightWristEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 2.8231199, y: 6.638318, z: -0.28659448}
+      rotation: {x: -0.2657738, y: -0.18946213, z: 0.016139802, w: 0.9450968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftKneeEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -0.4769382, y: 2.2648823, z: 0.03364029}
+      rotation: {x: 0.11103306, y: -0.09906853, z: 0.028826656, w: 0.9884463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightKneeEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.47640613, y: 2.2646914, z: 0.035259258}
+      rotation: {x: 0.11152704, y: 0.10203442, z: -0.027850112, w: 0.9881169}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftElbowEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -1.7712661, y: 6.4909368, z: -0.68062174}
+      rotation: {x: -0.2655879, y: 0.18866578, z: -0.015892249, w: 0.94531256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightElbowEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 1.7735026, y: 6.489856, z: -0.68207806}
+      rotation: {x: -0.26577362, y: -0.18946257, z: 0.016140118, w: 0.94509673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_ChestOriginEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.0007680893, y: 4.946874, z: 0.15358411}
+      rotation: {x: -8.326673e-17, y: -7.2538975e-17, z: 6.045608e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_ChestEndEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.0007680893, y: 6.8104405, z: -0.26803398}
+      rotation: {x: 3.469447e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftFootEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -0.30316517, y: 0.1648685, z: 0.18214425}
+      rotation: {x: 0.00059305876, y: 0.021714743, z: 0.016938236, w: 0.99962056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightFootEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.30470124, y: 0.16486788, z: 0.18214516}
+      rotation: {x: 0.0005917995, y: -0.02174054, z: -0.01695861, w: 0.99961966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftShoulderEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -0.67998034, y: 6.809636, z: -0.2929089}
+      rotation: {x: -0.25079328, y: -0.19454117, z: 0.08883757, w: 0.94412094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightShoulderEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.6830526, y: 6.809636, z: -0.2929089}
+      rotation: {x: -0.25091103, y: 0.19531085, z: -0.08910537, w: 0.94390553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_HeadEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.0007680893, y: 8.103159, z: 0.07941872}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftHipEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: -0.42151085, y: 4.301108, z: 0.15662554}
+      rotation: {x: 0.025199601, y: -0.2786431, z: -0.021465117, w: 0.9598241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightHipEffector
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.42458326, y: 4.301108, z: 0.15662554}
+      rotation: {x: 0.024935076, y: 0.28582183, z: 0.020697217, w: 0.9577347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Hips
+      parentName: MainBoss2_Ctrl_Reference
+      position: {x: 0.0007680893, y: 4.283835, z: 0.17496262}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftUpLeg
+      parentName: MainBoss2_Ctrl_Hips
+      position: {x: -0.42304707, y: 0.018076707, z: 0.006537819}
+      rotation: {x: 0.025199601, y: -0.2786431, z: -0.021465117, w: 0.9598241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftLeg
+      parentName: MainBoss2_Ctrl_LeftUpLeg
+      position: {x: -0, y: -2.0406864, z: 0}
+      rotation: {x: 0.09182261, y: 0.18344516, z: 0.020443523, w: 0.97851855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftFoot
+      parentName: MainBoss2_Ctrl_LeftLeg
+      position: {x: -0, y: -1.7389587, z: 0}
+      rotation: {x: -0.1081007, y: 0.122358404, z: -0.014542987, w: 0.98647416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftToeBase
+      parentName: MainBoss2_Ctrl_LeftFoot
+      position: {x: -0.00000033378603, y: -0.4068206, z: 0.5215473}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightUpLeg
+      parentName: MainBoss2_Ctrl_Hips
+      position: {x: 0.42304707, y: 0.018076707, z: 0.006537819}
+      rotation: {x: 0.024935076, y: 0.28582183, z: 0.020697217, w: 0.9577347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightLeg
+      parentName: MainBoss2_Ctrl_RightUpLeg
+      position: {x: 0.00000014305115, y: -2.0406864, z: 0.000019967554}
+      rotation: {x: 0.092246555, y: -0.18770625, z: -0.01779166, w: 0.97772205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightFoot
+      parentName: MainBoss2_Ctrl_RightLeg
+      position: {x: -0.000000047683717, y: -1.7389587, z: 0}
+      rotation: {x: -0.10856401, y: -0.12535267, z: 0.0135674765, w: 0.9860611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightToeBase
+      parentName: MainBoss2_Ctrl_RightFoot
+      position: {x: 0.00004367828, y: -0.4068206, z: 0.52154714}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Spine
+      parentName: MainBoss2_Ctrl_Hips
+      position: {x: -8.6736175e-20, y: 0.663039, z: -0.021378506}
+      rotation: {x: -8.326673e-17, y: -7.2538975e-17, z: 6.045608e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Spine1
+      parentName: MainBoss2_Ctrl_Spine
+      position: {x: -8.6736175e-20, y: 0.67011946, z: -0.042579114}
+      rotation: {x: -2.0816682e-17, y: -2.593969e-17, z: 2.9459743e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Spine2
+      parentName: MainBoss2_Ctrl_Spine1
+      position: {x: 8.6736175e-20, y: 0.6701198, z: -0.042579114}
+      rotation: {x: 3.469447e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftShoulder
+      parentName: MainBoss2_Ctrl_Spine2
+      position: {x: -0.27260658, y: 0.5233273, z: -0.33645988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftArm
+      parentName: MainBoss2_Ctrl_LeftShoulder
+      position: {x: -0.4089099, y: 0, z: -8.881784e-17}
+      rotation: {x: -0.25079328, y: -0.19454116, z: 0.08883757, w: 0.94412094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftForeArm
+      parentName: MainBoss2_Ctrl_LeftArm
+      position: {x: -1.206071, y: 0, z: -8.881784e-17}
+      rotation: {x: -0.00000010444659, y: 0.38960534, z: 0.00000041095504, w: 0.9209819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_LeftHand
+      parentName: MainBoss2_Ctrl_LeftForeArm
+      position: {x: -0.95601255, y: 0, z: -4.440892e-17}
+      rotation: {x: 0.00000011851777, y: -0.0000009370405, z: -0.0000003444269, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightShoulder
+      parentName: MainBoss2_Ctrl_Spine2
+      position: {x: 0.27260658, y: 0.5233273, z: -0.33645988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightArm
+      parentName: MainBoss2_Ctrl_RightShoulder
+      position: {x: 0.40890983, y: 0, z: 0}
+      rotation: {x: -0.25091103, y: 0.19531085, z: -0.08910536, w: 0.94390553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightForeArm
+      parentName: MainBoss2_Ctrl_RightArm
+      position: {x: 1.206071, y: 0, z: -8.881784e-17}
+      rotation: {x: -0.00000020724588, y: -0.39115396, z: 0.0000012303857, w: 0.9203253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_RightHand
+      parentName: MainBoss2_Ctrl_RightForeArm
+      position: {x: 0.95601255, y: -1.4210855e-15, z: 4.440892e-17}
+      rotation: {x: -0.00000023360745, y: 0.00000051854636, z: -0.00000014385448,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Neck
+      parentName: MainBoss2_Ctrl_Spine2
+      position: {x: -0, y: 1.5118245, z: -0.07583297}
+      rotation: {x: 5.551115e-17, y: 6.162976e-33, z: -1.8488927e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MainBoss2_Ctrl_Head
+      parentName: MainBoss2_Ctrl_Neck
+      position: {x: -0, y: 0.30422133, z: 0.08682581}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

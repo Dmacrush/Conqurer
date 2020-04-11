@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: d0359a6845652fd45b39b09f52e5f919
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Attack_Interruputed
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'EnemyRig_LeftLeg' has translation animation
+      that will be discarded.\n\t'EnemyRig_RightLeg' has translation animation that
+      will be discarded.\n\t'EnemyRig_LeftForeArm' has translation animation that
+      will be discarded.\n\t'EnemyRig_RightForeArm' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_Interruputed
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: EnemyRig_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EnemyRig_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: EnemyDeflected(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Enemy
+      parentName: EnemyDeflected(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: QuickRigCharacter_Guides
+      parentName: EnemyDeflected(Clone)
+      position: {x: -0, y: 0.08144475, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 1.6200274, z: -0.06284946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 0.86428434, z: -0.053361893}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.16843243, y: 1.409042, z: -0.117204204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.14616238, y: 0.055793244, z: -0.09977844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftForeArm
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.25406995, y: 1.1841098, z: -0.13087903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHand
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.32942715, y: 0.9659177, z: -0.008039877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.069963776, y: 1.409042, z: -0.117204204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftToeBase
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.16320989, y: -0.053467724, z: 0.041937612}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.11415664, y: 0.86390316, z: -0.05460159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 1.5384943, z: -0.06811813}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reference
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: -0.015165056, z: -0.112680756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.1597964, y: 1.409042, z: -0.117204204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.13752636, y: 0.055793244, z: -0.09977844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.24543394, y: 1.1841098, z: -0.13087903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHand
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.32079113, y: 0.9659177, z: -0.008039877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.10954506, y: 0.42620078, z: -0.05762416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.061327755, y: 1.409042, z: -0.117204204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightToeBase
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.15457387, y: -0.053467724, z: 0.041937612}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: QuickRigCharacter_Guides
+      position: {x: 0.10552063, y: 0.86390316, z: -0.05460159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 0.9796538, z: -0.052042507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 1.0948532, z: -0.055424795}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: Spine1
+      position: {x: -0.113863066, y: -0.6686524, z: -0.0021993676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: QuickRigCharacter_Guides
+      position: {x: -0.004318008, y: 1.2100525, z: -0.058807082}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Reference
+      parentName: EnemyDeflected(Clone)
+      position: {x: -0.004318008, y: 0.066279694, z: -0.112680756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Hips
+      parentName: EnemyRig_Reference
+      position: {x: 0.0076792776, y: 0.835468, z: 0.104957856}
+      rotation: {x: -0.50812554, y: 0.5431472, z: 0.48494712, w: -0.46002817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftUpLeg
+      parentName: EnemyRig_Hips
+      position: {x: 0.00039527475, y: -0.0012352539, z: 0.109838635}
+      rotation: {x: -0.071708374, y: 0.025823575, z: 0.9863639, w: -0.1458674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftLeg
+      parentName: EnemyRig_LeftUpLeg
+      position: {x: -0.43773174, y: 0.00000044442888, z: 0.000000030705067}
+      rotation: {x: 0.0025141318, y: -0.010462261, z: -0.25583172, w: 0.96666145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftFoot
+      parentName: EnemyRig_LeftLeg
+      position: {x: -0.37384704, y: 0.000000012616517, z: 0.00000012931392}
+      rotation: {x: -0.009202527, y: -0.092892416, z: 0.5323433, w: 0.8413661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftToeBase
+      parentName: EnemyRig_LeftFoot
+      position: {x: -0.17975561, y: -0.00000001701158, z: 0.00000005176287}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightUpLeg
+      parentName: EnemyRig_Hips
+      position: {x: 0.00039530479, y: -0.0012352762, z: -0.10983884}
+      rotation: {x: -0.14071195, y: 0.114638746, z: 0.12153661, w: 0.97585195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightLeg
+      parentName: EnemyRig_RightUpLeg
+      position: {x: 0.43773177, y: -0.00000024808375, z: -0.00000014805354}
+      rotation: {x: -0.005723893, y: -0.025814597, z: -0.32190618, w: 0.9464023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightFoot
+      parentName: EnemyRig_RightLeg
+      position: {x: 0.37384728, y: -0.00000015297132, z: -0.000000007314545}
+      rotation: {x: -0.00005880229, y: -0.035774086, z: 0.6074373, w: 0.79356164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightToeBase
+      parentName: EnemyRig_RightFoot
+      position: {x: 0.1797555, y: -0.000000025237782, z: 0.000000013300816}
+      rotation: {x: 0.000025408664, y: -0.000000018036312, z: 4.582786e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Spine
+      parentName: EnemyRig_Hips
+      position: {x: -0.11537696, y: 0.000000006533474, z: -0.000000017250086}
+      rotation: {x: 0.000010900501, y: 0.001749531, z: 0.010431007, w: 0.9999441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Spine1
+      parentName: EnemyRig_Spine
+      position: {x: -0.11524901, y: 0.0000000048865454, z: 0.0000000015868216}
+      rotation: {x: 0.00009333695, y: 0.0034978413, z: -0.019923754, w: 0.9997954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Spine2
+      parentName: EnemyRig_Spine1
+      position: {x: -0.11524902, y: -0.000000012143507, z: -0.000000022506056}
+      rotation: {x: 0.00009148873, y: 0.0034977715, z: -0.020428635, w: 0.9997852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftShoulder
+      parentName: EnemyRig_Spine2
+      position: {x: -0.20056444, y: -0.052734777, z: 0.06564576}
+      rotation: {x: -0.49286464, y: 0.50703496, z: 0.49286464, w: 0.50703496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftArm
+      parentName: EnemyRig_LeftShoulder
+      position: {x: -0.098468766, y: -0.000000064486244, z: -0.000000010829071}
+      rotation: {x: 0.8350539, y: 0.005405217, z: 0.015982179, w: 0.5499093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftForeArm
+      parentName: EnemyRig_LeftArm
+      position: {x: -0.24107115, y: 0.000050363407, z: -0.000031650932}
+      rotation: {x: -0.010760096, y: -0.019243713, z: -0.022357741, w: 0.9995069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_LeftHand
+      parentName: EnemyRig_LeftForeArm
+      position: {x: -0.26148802, y: -0.0000000025210423, z: -0.000000049934073}
+      rotation: {x: 0.18973497, y: -0.11803287, z: -0.13477357, w: 0.96535224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightShoulder
+      parentName: EnemyRig_Spine2
+      position: {x: -0.20056431, y: -0.052734766, z: -0.06564581}
+      rotation: {x: 0.50703496, y: 0.49286464, z: -0.50703496, w: 0.49286464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightArm
+      parentName: EnemyRig_RightShoulder
+      position: {x: 0.09846876, y: -0.000000063711305, z: -0.0000000074117366}
+      rotation: {x: 0.732259, y: 0.011931571, z: 0.018256914, w: 0.680677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightForeArm
+      parentName: EnemyRig_RightArm
+      position: {x: 0.24107122, y: 0.00000007434149, z: -0.000000042402924}
+      rotation: {x: -0.010345727, y: -0.016839394, z: -0.023623686, w: 0.9995256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_RightHand
+      parentName: EnemyRig_RightForeArm
+      position: {x: 0.26148802, y: 0.000000009500957, z: -0.000000083417184}
+      rotation: {x: 0.2962922, y: -0.17892237, z: 0.059518203, w: 0.9362988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Katana:katana
+      parentName: EnemyRig_RightHand
+      position: {x: 0.20130788, y: -0.06165434, z: -0.10251725}
+      rotation: {x: 0.7350311, y: 0.35339683, z: 0.4806447, w: -0.32221207}
+      scale: {x: 1.2859075, y: 1.2859075, z: 1.2859075}
+    - name: EnemyRig_Neck
+      parentName: EnemyRig_Spine2
+      position: {x: -0.3285739, y: 0.00000006395054, z: -0.00000016335395}
+      rotation: {x: 0.000000036247414, y: 0.0000007800389, z: -0.04641864, w: 0.9989221}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Head
+      parentName: EnemyRig_Neck
+      position: {x: -0.081703156, y: 0.00000007375282, z: -0.000000017797259}
+      rotation: {x: -0.035040263, y: 0.02104323, z: 0.04741311, w: 0.99803877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Reference
+      parentName: EnemyDeflected(Clone)
+      position: {x: -0.004318008, y: 0.066279694, z: -0.112680756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_HipsEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0, y: 0.87906826, z: 0.058079164}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftAnkleEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.109838255, y: 0.067489415, z: 0.05809037}
+      rotation: {x: -0.000000044703484, y: -0.000000029802322, z: -1.2802252e-15,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightAnkleEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.10983883, y: 0.06748938, z: 0.058079317}
+      rotation: {x: 0.000000029802164, y: 0.00000003352761, z: -0.000000014901159,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftWristEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.6666739, y: 1.4242069, z: -0.004523325}
+      rotation: {x: -1.2703591e-33, y: 8.525236e-26, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightWristEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.66667396, y: 1.424207, z: -0.0045236205}
+      rotation: {x: 9.124329e-25, y: 6.1232336e-17, z: -0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftKneeEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.10983829, y: 0.44133642, z: 0.0580904}
+      rotation: {x: -0.000000014901161, y: -2.220446e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightKneeEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.10983883, y: 0.44133705, z: 0.05807938}
+      rotation: {x: 2.4894982e-17, y: -6.3506453e-25, z: 1.581e-41, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftElbowEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.40518576, y: 1.4242071, z: -0.0045234775}
+      rotation: {x: -1.2703591e-33, y: 8.525236e-26, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightElbowEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.40518576, y: 1.424207, z: -0.0045235823}
+      rotation: {x: 1.2703591e-33, y: 8.525236e-26, z: -0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_ChestOriginEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0, y: 0.99481887, z: 0.06063825}
+      rotation: {x: 1.8735014e-16, y: -4.734163e-17, z: -5.4001583e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_ChestEndEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.000000014305114, y: 1.424207, z: -0.0045234486}
+      rotation: {x: 0.000000029802322, y: 5.372855e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftFootEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.10983837, y: -0.041771602, z: 0.20082816}
+      rotation: {x: 6.579648e-24, y: -0.0000000537269, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightFootEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.1098508, y: -0.04177181, z: 0.2008172}
+      rotation: {x: 1.6653345e-15, y: -0.000000037252903, z: -0.000000044703484, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftShoulderEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.16411442, y: 1.424207, z: -0.0045234393}
+      rotation: {x: 1.2703591e-33, y: -8.525236e-26, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightShoulderEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.16411445, y: 1.424207, z: -0.0045234677}
+      rotation: {x: -1.2703591e-33, y: -8.525236e-26, z: -0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_HeadEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.000000009536743, y: 1.6351924, z: 0.049831375}
+      rotation: {x: 0.000000029802322, y: 4.1633363e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftHipEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0.109838635, y: 0.87906826, z: 0.058079164}
+      rotation: {x: -0.000000014901161, y: -2.220446e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightHipEffector
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: 0.109838635, y: 0.87906826, z: 0.058079164}
+      rotation: {x: -2.5366666e-17, y: -4.8237623e-17, z: 5.2384336e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Hips
+      parentName: EnemyRig_Ctrl_Reference
+      position: {x: -0, y: 0.8794494, z: 0.059318867}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftUpLeg
+      parentName: EnemyRig_Ctrl_Hips
+      position: {x: -0.109838635, y: -0.00038116454, z: -0.0012397002}
+      rotation: {x: -0.000000014901161, y: -2.220446e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftLeg
+      parentName: EnemyRig_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.4377314, z: 8.881784e-18}
+      rotation: {x: -3.061617e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftFoot
+      parentName: EnemyRig_Ctrl_LeftLeg
+      position: {x: -1.7763568e-17, y: -0.37384713, z: 0}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: -0.000000014901161,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftToeBase
+      parentName: EnemyRig_Ctrl_LeftFoot
+      position: {x: -0.000000095367426, y: -0.10926097, z: 0.14273772}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightUpLeg
+      parentName: EnemyRig_Ctrl_Hips
+      position: {x: 0.109838635, y: -0.00038116454, z: -0.0012397002}
+      rotation: {x: -5.3122244e-17, y: -4.8237623e-17, z: 5.2384336e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightLeg
+      parentName: EnemyRig_Ctrl_RightUpLeg
+      position: {x: 0.000000028610229, y: -0.4377314, z: 0.0000042819975}
+      rotation: {x: -3.061617e-17, y: 7.810106e-25, z: 2.3912e-41, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightFoot
+      parentName: EnemyRig_Ctrl_RightLeg
+      position: {x: -0.000000009536743, y: -0.37384713, z: -8.881784e-18}
+      rotation: {x: 0.000000029802164, y: 0.00000003352761, z: -0.000000014901159,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightToeBase
+      parentName: EnemyRig_Ctrl_RightFoot
+      position: {x: 0.000011959076, y: -0.10926098, z: 0.14273772}
+      rotation: {x: 1.6653344e-15, y: -0.00000005587935, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Spine
+      parentName: EnemyRig_Ctrl_Hips
+      position: {x: -0, y: 0.11536941, z: 0.0013193846}
+      rotation: {x: 1.8735014e-16, y: -4.734163e-17, z: -5.4001583e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Spine1
+      parentName: EnemyRig_Ctrl_Spine
+      position: {x: -0, y: 0.11519935, z: -0.003382287}
+      rotation: {x: 8.673617e-18, y: 6.162976e-33, z: 6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Spine2
+      parentName: EnemyRig_Ctrl_Spine1
+      position: {x: -0, y: 0.11519943, z: -0.003382287}
+      rotation: {x: 0.000000029802322, y: 5.372855e-16, z: 0.000000014901161, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftShoulder
+      parentName: EnemyRig_Ctrl_Spine2
+      position: {x: -0.06564576, y: 0.1989894, z: -0.058397125}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftArm
+      parentName: EnemyRig_Ctrl_LeftShoulder
+      position: {x: -0.09846865, y: -2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: -0.000000029802322, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftForeArm
+      parentName: EnemyRig_Ctrl_LeftArm
+      position: {x: -0.24107112, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_LeftHand
+      parentName: EnemyRig_Ctrl_LeftForeArm
+      position: {x: -0.26148796, y: -2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightShoulder
+      parentName: EnemyRig_Ctrl_Spine2
+      position: {x: 0.06564576, y: 0.1989894, z: -0.058397125}
+      rotation: {x: 0, y: -0, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightArm
+      parentName: EnemyRig_Ctrl_RightShoulder
+      position: {x: 0.09846865, y: -2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: -0.000000029802322, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightForeArm
+      parentName: EnemyRig_Ctrl_RightArm
+      position: {x: 0.24107112, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_RightHand
+      parentName: EnemyRig_Ctrl_RightForeArm
+      position: {x: 0.26148796, y: 0, z: 0}
+      rotation: {x: -1.2325952e-32, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Neck
+      parentName: EnemyRig_Ctrl_Spine2
+      position: {x: -0, y: 0.32844177, z: -0.009311051}
+      rotation: {x: 9.7144515e-17, y: 3.391761e-17, z: 1.1390874e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EnemyRig_Ctrl_Head
+      parentName: EnemyRig_Ctrl_Neck
+      position: {x: -0, y: 0.08153305, z: 0.005268669}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
