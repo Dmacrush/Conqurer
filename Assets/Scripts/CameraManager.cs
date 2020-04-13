@@ -37,8 +37,6 @@ public class CameraManager : MonoBehaviour
     bool ChangeTargetLeft;
     bool ChangeTargetRight;
 
-    public bool LockedOn;
-
     private void Start()
     {
         //  Cursor.lockState = CursorLockMode.Locked;
@@ -54,7 +52,6 @@ public class CameraManager : MonoBehaviour
         float h = Input.GetAxis("Mouse X");
         float v = Input.GetAxis("Mouse Y");
 
-            
 
         ChangeTargetLeft = Input.GetKeyUp(KeyCode.V);
         ChangeTargetRight = Input.GetKeyUp(KeyCode.C);

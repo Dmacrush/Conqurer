@@ -12,12 +12,9 @@ public class EnemyTarget : MonoBehaviour
     public EnemyStates eSTATES;
     Animator anime;
         
-    public GameObject lockOnRetical;
-    public bool lockOn;
-        
+    
     public void Init(EnemyStates st)
     {
-        lockOnRetical.SetActive(false);
             
         eSTATES = st;
         anime = eSTATES.anim;
@@ -30,29 +27,12 @@ public class EnemyTarget : MonoBehaviour
         }
 
         EnemyManager enemyManager = FindObjectOfType<EnemyManager>();
-        enemyManager.enemyTargets.Add(this);
-    }
-
-    public void Update()
-    {
-        if (lockOn)
+        if (!enemyManager.enemyTargets.Contains(this))
         {
-            LockOnTrue();
+            enemyManager.enemyTargets.Add(this);
         }
-        else
-        {
-            LockOnFalse();
-        }
-    }
-
-    public void LockOnTrue()
-    {
-        lockOnRetical.SetActive(true);
-    }
-
-    public void LockOnFalse()
-    {
-        lockOnRetical.SetActive(false);
+        
+        
     }
 
     public Transform GetTarget(bool negative = false)
