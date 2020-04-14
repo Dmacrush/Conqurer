@@ -48,12 +48,12 @@ namespace CheckPointSystem
         //at the end of a scene load this function again
         public void InitializeLevel()
         {
-            // Debug.Log("Level Index is: " + SaveData.current.levelIndex);
+            Debug.Log("Level Index is: " + SaveData.current.levelIndex);
 
             if (Directory.Exists(Application.persistentDataPath + "/saves/"))
             {
                 LoadData();
-                // Debug.Log("Level Index is: " + SaveData.current.levelIndex);
+                Debug.Log("Level Index is: " + SaveData.current.levelIndex);
                 if (SaveData.current.levelIndex != SceneManager.GetActiveScene().buildIndex)
                 {
                     SaveData.current.levelIndex = SceneManager.GetActiveScene().buildIndex;
@@ -66,9 +66,11 @@ namespace CheckPointSystem
                 }
                 else
                 {
+                    
                     currentIndex = SaveData.current.checkpointIndex;
                     UpdateIndex();
                 }
+                
             }
             else
             {
@@ -100,7 +102,7 @@ namespace CheckPointSystem
         public void UpdateIndex()
         {
             currentIndex = SaveData.current.checkpointIndex;
-            //checkpoints[currentIndex].isTriggered = true;
+            // checkpoints[currentIndex].isTriggered = true;
             GoToCheckpoint(checkpoints[currentIndex]);
         }
 
@@ -146,10 +148,6 @@ namespace CheckPointSystem
 
                 player.Die();
             }
-            else
-            {
-                //Debug.Log(checkpoint.name + "Isn't Active");
-            }
         }
 
         public void OpenTravelMenu()
@@ -160,23 +158,23 @@ namespace CheckPointSystem
             {
                 Destroy(button.gameObject);
             }
-            
+
             buttonPrefabs.Clear();
-            
+
             for (int i = 0; i < activeCheckpoints.Count; i++)
             {
                 GameObject buttonObject = Instantiate(buttonPrefab);
                 buttonObject.transform.SetParent(TraverseArea.transform, false);
-                
+
                 buttonPrefabs.Add(buttonObject);
             }
-            
+
             for (int j = 0; j < buttonPrefabs.Count; j++)
             {
-                
                 var index = j;
 
-                Vector3 newPos = new Vector3(TraverseArea.transform.position.x, buttonPrefabs[j].transform.position.y + 80f - (j * buttonPadding),
+                Vector3 newPos = new Vector3(TraverseArea.transform.position.x,
+                    buttonPrefabs[j].transform.position.y + 80f - (j * buttonPadding),
                     TraverseArea.transform.position.z);
                 Debug.Log(newPos);
 

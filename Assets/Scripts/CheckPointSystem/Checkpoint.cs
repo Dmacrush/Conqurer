@@ -26,16 +26,16 @@ namespace CheckPointSystem
             //put anything you want to the checkpoint when player dies here
         }
 
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.CompareTag("Player"))
-            {
-                //add in what ever u want to make the checkpoint do when triggered
-                // Debug.Log(name + "Was Triggered");
-                isTriggered = true;
-                CheckpointManager.instance.UpdateCheckpoint(this);
-            }
-        }
+        // void OnTriggerEnter(Collider other)
+        // {
+        //     if (other.CompareTag("Player"))
+        //     {
+        //         
+        //         // Debug.Log(name + "Was Triggered");
+        //         isTriggered = true;
+        //         CheckpointManager.instance.UpdateCheckpoint(this);
+        //     }
+        // }
 
         private void OnTriggerStay(Collider other)
         {
@@ -44,7 +44,11 @@ namespace CheckPointSystem
                 if (Input.GetKeyDown(OpenUIButton))
                 {
                     CheckpointManager.instance.UIOpen = true;
-                    // Debug.Log("Open UI Pressed");
+                    isTriggered = true;
+                    CheckpointManager.instance.UpdateCheckpoint(this);
+
+                    //add in what ever u want to make the checkpoint do when triggered
+                    
                 }
             }
         }
