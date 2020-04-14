@@ -34,7 +34,6 @@ namespace CheckPointSystem
         public float buttonPadding;
         [HideInInspector] public List<GameObject> buttonPrefabs = new List<GameObject>();
 
-
         void Awake()
         {
             instance = this;
@@ -49,10 +48,11 @@ namespace CheckPointSystem
         public void InitializeLevel()
         {
             Debug.Log("Level Index is: " + SaveData.current.levelIndex);
-
+            Debug.Log("Build index is: " + SceneManager.GetActiveScene().buildIndex);
             if (Directory.Exists(Application.persistentDataPath + "/saves/"))
             {
                 LoadData();
+                RefreshCheckpoints();
                 Debug.Log("Level Index is: " + SaveData.current.levelIndex);
                 if (SaveData.current.levelIndex != SceneManager.GetActiveScene().buildIndex)
                 {
@@ -66,11 +66,9 @@ namespace CheckPointSystem
                 }
                 else
                 {
-                    
                     currentIndex = SaveData.current.checkpointIndex;
                     UpdateIndex();
                 }
-                
             }
             else
             {
@@ -86,7 +84,7 @@ namespace CheckPointSystem
             SaveData.current =
                 (SaveData) SerializationManager.Load(Application.persistentDataPath + "/saves/Save.save");
             UpdateIndex();
-            RefreshCheckpoints();
+            
         }
 
         public void RefreshCheckpoints()
@@ -196,11 +194,6 @@ namespace CheckPointSystem
 
         public void UpdateCheckpoint(Checkpoint checkpoint)
         {
-            //if trying to set the checkpoint this way doesnt work then just go through
-            //each checkpoint in checkpoints list set them to false
-            //and set the passed in checkpoint is triggered bool to true
-
-
             previousCheckpoint = checkpoint;
             currentIndex = checkpoints.IndexOf(checkpoint);
             currentCheckpoint = checkpoints[currentIndex];
